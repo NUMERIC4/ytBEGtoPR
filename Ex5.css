@@ -1,0 +1,56 @@
+div:nth-of-type(odd){background-color: aliceblue;}
+div:nth-of-type(even){background-color: bisque;}
+p{margin: 5px 0px;}
+
+.d5a>p{
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.d5b>p{font-family: Arial;margin: 0px; padding: 7px;}
+.d5b>p:first-child{
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.d5b>p:last-child{color: red; font-style: italic; padding-top: 2px;}
+
+.d5c>p, button{font-family: Verdana;margin: 7px;}
+.d5c>p{width: 300px;}
+.d5c>p:first-child{font-weight: bold; padding-top:5px;}
+.d5c>p:nth-child(2){color: rgb(96,96,96);margin-top: 0px;font-size: 14px;}
+.d5c>p:nth-child(3){margin-top: 25px; font-size: 14px;}
+.d5c>button{
+    background-color: darkgreen;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    padding: 7px 9px;
+    font-size: 14px;
+}
+
+.d5d>p{text-align: center; font-family: Arial;} 
+.d5d>p:first-child{font-weight: bold; font-size: 30px; margin-bottom: 15px;}
+.d5d>p:last-child{color: blue;}
+
+.d5e, .d5f, .d5g{font-family: Arial;}
+.d5e{    
+    text-align: center;
+}
+.d5e>p{
+    margin: 3px;
+}
+.d5e>p:first-child{color: orange; font-size: 12px;}
+.d5e>p:nth-child(2){font-size: 18px; font-weight: bold;}
+.d5e>p:nth-child(3){font-size: 32px; font-weight: bold;}
+.d5e>p:nth-child(4){font-size: 13px; padding-top: 6px;}
+.d5eb{background-color: rgb(0, 113, 227); border-width: 0px; color: white; font-size: 13px; border-radius: 30px; padding: 7px 15px;font-weight: bold;}
+
+.d5f>p:first-child{font-size: 30px;}
+.monUni{font-size: 15px; color: gray;}
+.d5f>p:nth-child(2){color: green;}
+.update{color: rgb(206, 5, 5);}
+
+.d5g>p:first-child{font-weight: bold; font-size: 16px;}
+.twiLink{color: grey; font-weight: normal;}
+.d5g>p:nth-child(2){margin-bottom: 20px;}
+.twiLinkIn{color: rgb(91, 110, 218);}
