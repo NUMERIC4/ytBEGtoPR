@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button{cursor: pointer;}
+        div{margin: 10px 0px; }
+        .d4h>button{
+            padding: 4px 3px;
+            margin: 0px 4px;
+            border-radius: 2px;
+            border-width: 0.65px;
+            border-style: solid;
+            font-style: 16px;
+        }
+        .d4h>a{
+            padding: 4px 4px;
+            font-style: 18px;
+        }
+        div:nth-of-type(odd){background-color: wheat;}
+        div:nth-of-type(even){background-color: aliceblue;}
+
+        .greenButtons>button{
+            background-color: darkgreen;
+            color: white;
+            border-width: 0px;
+            padding: 4px 8px;
+            transition: padding 0.5s;
+            font-size: 12px;
+        }
+        .d4i>button:hover{
+            padding: 16px 32px;
+        }
+
+        .d4j>button:active{
+            position:relative;
+            left: -1.5px;
+            top: -1.5px;
+            box-shadow: 2px 2px 4px black;
+        }
+
+        .d4k>button{
+            margin: 0px 5px;
+            padding: 0px 5px;
+            transition: padding 0.15s, margin 0.15s;
+        }
+        .d4k>button:hover{
+            margin: 0px 0px;
+            padding: 0px 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="d4h">
+        <button>Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <button>Next</button>
+    </div>
+    <div class="d4i greenButtons">
+        <button>Stretch</button>
+    </div>
+    <div class="d4j greenButtons">
+        <button>Shadow</button>
+    </div>
+    <div class="d4k greenButtons">
+        <button>one</button>
+        <button>two</button>
+        <button>three</button>
+    </div>
+</body>
+</html>
