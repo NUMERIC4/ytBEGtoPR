@@ -1,0 +1,15 @@
+.thumbnail{
+    width: 300px;
+    /* height: 300px;
+    object-fit: contain;
+    object-position: center;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+ */
+}
+
+.searchBar{
+    font-size: 20px;
+    margin: 0px 12px;
+}
