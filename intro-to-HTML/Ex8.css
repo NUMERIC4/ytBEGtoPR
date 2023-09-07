@@ -1,0 +1,104 @@
+.d8a>* {
+    display: block;
+    margin: 5px 0px;
+}
+
+.d8b>* {
+    display: inline-block;
+    margin: 2px 5px;
+    vertical-align: middle;
+}
+
+.d8b>p {
+    width: 240px;
+}
+
+.d8c>* {
+    display: block;
+}
+
+.d8c>img {
+    width: 200px;
+    margin: 0px 110px;
+}
+
+.d8c>input {
+    padding: 5px 10px;
+    border-style: none;
+    box-shadow: 0px 0px 2px black;
+    margin: 10px 0px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.d8d {
+    width: 400px;
+}
+
+.d8d>* {
+    display: block;
+}
+
+.d8d>.custName {
+    display: inline-block;
+    width: 94px;
+}
+
+.d8d>input {
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 5px 0px;
+    width: 194px;
+}
+
+.d8d>button {
+    background-color: rgb(52, 70, 235);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 0px;
+    width: 200px;
+}
+
+.d8e {
+    margin: 10px 0px;
+}
+
+.d8e>p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px
+}
+
+/* .d8e>*{margin: ;} */
+.d8e>input {
+    display: block;
+    width: 250px;
+    margin: 5px 0px;
+    background-color: rgb(218, 217, 217);
+    border-style: none;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+.d8e>input::placeholder {
+    color: black;
+}
+
+.d8e>button {
+    display: inline-block;
+    margin: 15px 5px;
+    padding: 8px 8px;
+    border-style: none;
+}
+
+.d8e>.reqButton{
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+}
+
+.schButton {
+    color: black;
+    background-color: rgb(218, 217, 217);
+}
