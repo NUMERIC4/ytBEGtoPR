@@ -1,0 +1,19 @@
+.divContainer1{display: grid;grid-template-columns: 100px 200px 100px;}
+.divContainer2{display: grid;grid-template-columns: 100px 1fr;}
+
+
+.div1{
+background-color: aqua;
+}
+
+.div2{
+    background-color: pink;
+}
+
+.div3{background-color: grey;}
+
+.div4{
+    background-color: pink;
+}
+
+.div5{background-color: grey;}

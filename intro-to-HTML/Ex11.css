@@ -1,0 +1,16 @@
+.d11a{display: grid; grid-template-columns: 200px 75px; margin: 10px 0px;}
+.d11a>div:first-child{background-color: lightblue;}
+.d11a>div:last-child{background-color: lightcoral;}
+
+.d11b{display: grid; grid-template-columns: 50px 1fr 75px; margin: 10px 0px;}
+.d11b>div:nth-child(1){background-color: blue;}
+.d11b>div:nth-child(2){background-color: purple;}
+.d11b>div:nth-child(3){background-color: red;}
+
+.d11c{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;row-gap: 10px; column-gap: 20px; margin: 10px 0px;}
+.d11c>div{background-color: pink; }
+
+.d11d{display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 16px;}
+.d11d>div{background-color: aqua;}
+.d11d>.column1>img:nth-child(1){width: 100%;}
+.d11d>.column1>img:last-child{width:50%;height: width*1; border-radius: 50%;}
