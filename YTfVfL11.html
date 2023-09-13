@@ -15,8 +15,9 @@
       }
 
       .thumbnail {
-        width: 300px;
-        display: block;
+        /* width: 300px; */
+        /* display: block; */
+        width: 100%;
       }
 
       .search-bar {
@@ -31,12 +32,12 @@
         margin-bottom: 12px;
       }
 
-      .video-preview {
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-      }
+      /* .video-preview { */
+        /* width: 300px; */
+        /* display: inline-block; */
+        /* vertical-align: top; */
+        /* margin-right: 15px; */
+      /* } */
 
       .channel-picture {
         display: inline-block;
@@ -51,6 +52,7 @@
 
       .profile-picture {
         width: 40px;
+        height: 40px; /* my additional parametr to make it square */
         border-radius: 50px;
       }
 
@@ -67,51 +69,145 @@
       .video-author {
         margin-bottom: 4px;
       }
+
+      .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+      }
     </style>
   </head>
   <body>
     <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="https://www.mercedes-benz.com/content/dam/brandhub/global/logos/MB-star_n_web.svg/_jcr_content/renditions/original">
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="video-author">
-            Marques Brownlee
-          </p>
-          <p class="video-stats">
-            3.4M views &#183; 6 months ago
-          </p>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://www.mercedes-benz.com/content/dam/brandhub/global/logos/MB-star_n_web.svg/_jcr_content/renditions/original">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/270px-BMW_logo_%28gray%29.svg.png">
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60">
         </div>
-        <div class="video-info">
-          <p class="video-title">
-            Try Not To Laugh Challenge #9
-          </p>
-          <p class="video-author">
-            Markiplier
-          </p>
-          <p class="video-stats">
-            19M views &#183; 4 years ago
-          </p>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/270px-BMW_logo_%28gray%29.svg.png">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1654157925394-4b7809721149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://plus.unsplash.com/premium_photo-1682125729312-78f16e6e6f38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://images.unsplash.com/photo-1646206272308-1c5a2dd21475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MTV8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://images.unsplash.com/photo-1567808291548-fc3ee04dbcf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div>
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
         </div>
       </div>
     </div>
