@@ -1,0 +1,72 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2,
+.container3 {
+    margin-top: 30px;
+}
+
+.container3 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    height: 70px;
+}
+
+.div1 {
+    background-color: lightblue;
+}
+
+.div2 {
+    background-color: lightpink;
+}
+
+.c2d1 {
+    width: 100px;
+}
+
+.c2d2 {
+    flex: 1;
+}
+
+.c2d3 {
+    flex: 2;
+}
+
+.c3d1,
+.c3d2,
+.c3d3 {
+    width: 100px;
+}
+
+.c3d1 {
+    background-color: wheat;
+}
+
+.flexbox1{
+    justify-content: space-between;
+    background-color: aqua;
+}
+.flexbox2{
+    justify-content: center;
+    background-color: red;
+}
+.flexbox3{
+    justify-content: space-evenly;
+    background-color: brown;
+}
+
+.alignItems1{
+    align-items: start;
+}
+
+.alignItems2{
+    align-items: center;
+}
+
