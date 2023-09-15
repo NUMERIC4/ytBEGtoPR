@@ -6,25 +6,79 @@
 .header {
     height: 55px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .headerLeft {
-    background-color: lightblue;
-    width: 150px;
+    display: flex;
+    align-items: center;
 }
 
-.headerMiddle{
-    background-color: wheat;
+.hamburgerMenu {
+    height: 24px;
+    margin: 0px 24px;
+}
+
+.youTubeLogo {
+    height: 25px;
+}
+
+.headerMiddle {
+    align-items: center;
     flex: 1;
     margin-left: 70px;
     margin-right: 30px;
-    max-width: 500px; /* this line for limiting the width */
+    max-width: 500px;
+    display: flex;
+    /* this line for limiting the width */
 
+}
+
+.searchIconContainer {
+    height: 40px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(240,240,240);
+}
+
+.searchIcon{
+    height: 25px;
+
+}
+
+.voiceSearchButton {
+    height: 40px;
+    width: 40px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder {
+    font-family: Robot, Arial;
+    font-size: 16px;
 }
 
 .headerRight {
     background-color: lightpink;
     width: 200px;
+}
+
+.headerProfilePicture {
+    width: 20px;
+    background-color: aqua;
 }
