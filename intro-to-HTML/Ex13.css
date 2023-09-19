@@ -1,4 +1,11 @@
 .d13a{display: flex;}
-.part1{background-color: lightblue; width: 100px;display: flex; justify-content: center;}
-.part2{background-color: lightpink; width: 200px;} 
+.a13part1{background-color: lightblue; width: 100px;display: flex; justify-content: center;}
+.a13part2{background-color: lightpink; width: 200px;} 
 .d13aPItem1{background-color: black; color: white;}
+
+.d13b{display: flex;margin-top: 10px;}
+.d13bDivLeftSide{background-color: lightpink;width: 100px;}
+.d13bDivRightSide{background-color: lightblue; width: 200px;}
+.d13bDRSSecondRow{display: flex; justify-content: space-between;}
+.d13bDRSSecondRow>*{background-color: black; color: white;margin: 0px 0px 10px 0px;}
+.d13bDRSFirstRow>*{margin: 0px;}
